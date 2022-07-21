@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--website Icon-->
+        <link rel="shortcut icon" type="x-icon" href="assets/img/logo.png">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Ghazanfar Mumtaz</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Resume</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ghazanfar</span><br> Web Developer</h1>
+
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ghazanfar-mumtaz-577223195/" class="button">Linkedin</a>
+                </div>
+
+                <div class="home__social">
+                   
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/gma.jpg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/gm.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hello, </h2>
+                        <p class="about__text">My name is Ghazanfar Mumtaz and I am an undergraduate in computer science engineering. I am a self-motivated quick learner with
+                            sharp rational and logical thinking skills and I am continuously developing myself in software engineering field.
+                             </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">DSA</span>
+                            </div>
+                            <div class="skills__bar skills__dsa">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">C</span>
+                            </div>
+                            <div class="skills__bar skills__c">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                             
+                        
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                              <img id="mern-icon" class='skills__icon' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAB4klEQVRIS+2X7TFEQRBFz0ZABmSACBABGSACMkAGRIAMiAAZkAEZEAF1qrbVmp03r2dt1f4xf96rfT19++P2ndkJK1qTFeHSC7wNbAA+Z9cL8A74TK0M8B5wBBwC6yNeP4B74A54atm2gDeBG0DgRZbAJ8BbbfMQsKV8TGQ4FpAV2K+1YAjYch2MeU1+f5i26Zf5EPBX0mnWbA7nHzhKJxOd12Us59sJSfX4AjhfBipwCegvBazRFXD6R/Br4KxnjlUpR0rxMNrdzgCep/sUkfCVyljNFVQBcNkjHfibslkGIpC2AhlwqJW2CtFOttTOsZuVvKbmNiphkEquQafn2OjXpk4FvgVUoKjAEJ4ZqnjHMxr/WZPeIQERyBOpXLYgSjr7LVpQHpfaeFIZSKrHRm6mW52kKs1fC678fG+dTmYnox2HKHs2DsvrOLrfKsxdEFqnkyx2mb3vweqhIAQLVsvs4IPv4Ws0Y1ntBlldI1R5Oagx34BltaBpVsexKKglkyDVm0Sl9o6PxLRFcVVKA9cuAvbJzFqsthIls7suAm4WpJdUZQHsu8GkyRUy6Tz36nSAK6POb9dlrxQHHUiSsQqYoW0y4IWvt7WZtQUSpsZqe7/UC31WNLrsMv8kuhxmjb8B/QlgHyw9iPUAAAAASUVORK5CYII="/>
+                              <!--   <i class='bx bxs-paint skills__icon'></i> -->
+                                <span class="skills__name">WEB DEV</span>
+                            </div>
+                            <div class="skills__bar skills__web">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/skills.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Project</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                   
+                        <img src="assets/img/work1.jpg" alt="">
+                           <a target="_blank" rel="noopener noreferrer" class = "project" href="https://github.com/ghazanfarofficial01/Chat-Application_Using-Socket.io"><h3>Chat Application</h3></a>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                        <a target="_blank" rel="noopener noreferrer" class = "project" href=""><h3>Portfolio website</h3></a>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                        <a target="_blank" rel="noopener noreferrer" class = "project" href="https://github.com/ghazanfarofficial01/To-Do-List"><h3>To-Do List</h3></a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">My Resume</h2>
+
+                <div class="contact__container bd-grid">
+                   
+                    <img id = "res" src="assets/img/GM_resume.jpg" alt="">
+                    <div class="middle">
+                        <div class="text"><a target="_blank" rel="noopener noreferrer" class = "download" href="https://docs.google.com/document/d/1aKMN-Q-JO_UIdkVNuQ1X6DV7d8H3gOMtryGBfFBqhp4/edit?usp=sharing">Download</a></div>
+                      </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Ghazanfar</p>
+            <div class="footer__social">
+              
+                <a target="_blank" rel="noopener noreferrer" href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2022 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
